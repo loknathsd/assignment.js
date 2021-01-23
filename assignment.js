@@ -75,3 +75,6 @@ function megaFriend(friends){
 var result = megaFriend(friends);
 console.log(result);
 
+
+// COMPELETED ASSIGNMEN-3a
+
