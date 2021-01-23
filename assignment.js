@@ -1,15 +1,17 @@
-//1. Kilometer to Meter Convert
+// https://github.com/loknathsd/assignment.js
 
+//1. Kilometer to Meter Convert
+    //start
 function kilometerToMeter(kilo) {
     var met = kilo * 1000;
     return met;
 }
 var firstKilo = kilometerToMeter(2);
 console.log(firstKilo);
-
+    //end
 
 // 2.Budget Calculator Program
-
+     //start
 function budgetCalculator(watch, phone, laptop) {
     const watchPrice = 50;
     const phonePrice = 100;
@@ -25,10 +27,11 @@ function budgetCalculator(watch, phone, laptop) {
 }
 var totalBudget = budgetCalculator(2, 2, 2);
 console.log(totalBudget);
-
+  //end
 
 
 // 3.Hotel Cost Program
+    //start
 
 function hotelCost(day) {
     var cost = 0;
@@ -54,11 +57,13 @@ function hotelCost(day) {
 }
 var totalCost = hotelCost(23);
 console.log(totalCost);
+    //end
 
 
 
 // 4.Mega Friend program
-
+   
+    //start
 var friends = ["Akash", "Bikash", "Arman", "Sujon", "Proshanto", "Jony"];
 var maxName = friends[0];
 
@@ -74,7 +79,8 @@ function megaFriend(friends){
 }
 var result = megaFriend(friends);
 console.log(result);
+  //end
 
 
-// COMPELETED ASSIGNMEN-3a
+// COMPELETED ASSIGNMEN-3
 
